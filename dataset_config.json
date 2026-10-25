@@ -1,0 +1,43 @@
+{
+  "generator_version": "adaptive_slit",
+  "random_seed": 20261025,
+  "n_samples_total": 2000,
+  "n_spectral": 16385,
+  "wavelength_mm": 0.000633,
+  "focal_length_mm": 100.0,
+  "input_half_width_mm": 1.0,
+  "output_half_width_mm": 4.5,
+  "n_input": 2049,
+  "n_output": 9217,
+  "alpha_range_rad_per_mm": [
+    5.0,
+    300.0
+  ],
+  "sigma_range_mm": [
+    0.02,
+    0.35
+  ],
+  "slit_target_transmission_range": [
+    0.05,
+    0.95
+  ],
+  "filter_names_in_label_order": [
+    "amplitude_slit",
+    "amplitude_binary",
+    "phase_linear",
+    "phase_sinusoidal"
+  ],
+  "filter_mask_bit_weights": {
+    "amplitude_slit": 1,
+    "amplitude_binary": 2,
+    "phase_linear": 4,
+    "phase_sinusoidal": 8
+  },
+  "fourier_functions": [
+    "fourier_transform",
+    "inv_fourier_transform",
+    "fft_radix2",
+    "ifft_radix2"
+  ],
+  "generation_seconds": 5040.384779200074
+}
