@@ -1,6 +1,6 @@
 {
-  "generator_version": "adaptive_slit",
-  "random_seed": 20261025,
+  "generator_version": "new_features",
+  "random_seed": 20261029,
   "n_samples_total": 2000,
   "n_spectral": 16385,
   "wavelength_mm": 0.000633,
@@ -39,5 +39,5 @@
     "fft_radix2",
     "ifft_radix2"
   ],
-  "generation_seconds": 5040.384779200074
+  "generation_seconds": 5221.949985400075
 }
